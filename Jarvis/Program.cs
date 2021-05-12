@@ -37,7 +37,7 @@ namespace Jarvis
                     thresholdReached = false;
                     Console.Clear();
                     Console.ForegroundColor = ConsoleColor.Red;
-                    Console.WriteLine("\n Memory in use is over 75%. Ending Application...");
+                    Console.WriteLine("\n Memory is less than 1024 mb. Ending Application...");
                     Console.ForegroundColor = ConsoleColor.White;
                     Environment.Exit(0);
                 }
